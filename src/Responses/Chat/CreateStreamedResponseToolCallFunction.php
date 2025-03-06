@@ -18,7 +18,7 @@ final class CreateStreamedResponseToolCallFunction
     {
         return new self(
             $attributes['name'] ?? null,
-            $attributes['arguments'],
+            $attributes['arguments'] ?? '',
         );
     }
 
